@@ -1,0 +1,21 @@
+{
+  "name": "@loom/contracts",
+  "version": "0.1.0",
+  "description": "Shared types and minimal runtime utilities for all Loom packages. Tier 0: no runtime dependencies.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun run ../../scripts/build.ts"
+  },
+  "license": "UNLICENSED"
+}

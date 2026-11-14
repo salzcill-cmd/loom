@@ -1,0 +1,11 @@
+# Documentation prose is reviewed by hand; table layout is fragile.
+PRD.md
+docs/
+IMPLEMENTATION_PROGRESS.md
+AGENTS.md
+
+# Generated and vendored files
+dist/
+node_modules/
+bun.lock
+.github/
